@@ -101,10 +101,11 @@ a {
 }
 
 .eyebrow {
-  margin: 0 0 22px;
-  font-size: 1.08rem;
-  letter-spacing: 0.22em;
-  color: #5f5549;
+  margin: 0 0 24px;
+  font-size: 1.4rem;
+  letter-spacing: 0.20em;
+  color: #5a5044;
+  line-height: 1.1;
 }
 
 h1,
@@ -430,8 +431,8 @@ p {
   }
 
   .eyebrow {
-    font-size: 0.92rem;
-    letter-spacing: 0.18em;
+    font-size: 1.05rem;
+    letter-spacing: 0.16em;
   }
 
   h1 {
