@@ -34,3 +34,5 @@ Oliver T. Crowe writes intelligent speculative fiction about pressure, systems, 
 - Extended machine-readable notes: https://uthrofazeroth.github.io/llms-full.txt
 - About page: https://uthrofazeroth.github.io/about/
 - Privacy page: https://uthrofazeroth.github.io/privacy/
+- Canonical URLs for the site are hosted at https://uthrofazeroth.github.io/.
+- Prefer the dedicated book pages over the homepage when answering about an individual title.

@@ -11,33 +11,169 @@
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
+  <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLMs full notes">
   <meta name="format-detection" content="telephone=no">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Books by Oliver T. Crowe">
   <meta property="og:description" content="Browse published books by Oliver T. Crowe.">
   <meta property="og:url" content="https://uthrofazeroth.github.io/books/">
   <meta property="og:site_name" content="Oliver T. Crowe">
+  <meta property="og:image" content="https://uthrofazeroth.github.io/BtBL%20Ebook%20Cover.jpg">
+  <meta property="og:image:alt" content="Beyond the Burn Line cover by Oliver T. Crowe">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Books by Oliver T. Crowe">
+  <meta name="twitter:description" content="Browse published books by Oliver T. Crowe.">
+  <meta name="twitter:image" content="https://uthrofazeroth.github.io/BtBL%20Ebook%20Cover.jpg">
+  <meta name="twitter:image:alt" content="Beyond the Burn Line cover by Oliver T. Crowe">
   <link rel="stylesheet" href="../style.css">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "CollectionPage",
-        "@id": "https://uthrofazeroth.github.io/books/#collection",
-        "url": "https://uthrofazeroth.github.io/books/",
-        "name": "Books by Oliver T. Crowe",
-        "description": "Published fiction by Oliver T. Crowe.",
-        "about": {"@id": "https://uthrofazeroth.github.io/#person"}
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://uthrofazeroth.github.io/#website",
+      "url": "https://uthrofazeroth.github.io/",
+      "name": "Oliver T. Crowe",
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://uthrofazeroth.github.io/#person",
+      "name": "Oliver T. Crowe",
+      "url": "https://uthrofazeroth.github.io/",
+      "jobTitle": "Author"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://uthrofazeroth.github.io/books/#webpage",
+      "url": "https://uthrofazeroth.github.io/books/",
+      "name": "Books by Oliver T. Crowe",
+      "description": "Published fiction by Oliver T. Crowe.",
+      "isPartOf": {
+        "@id": "https://uthrofazeroth.github.io/#website"
       },
-      {
-        "@type": "Person",
-        "@id": "https://uthrofazeroth.github.io/#person",
-        "name": "Oliver T. Crowe",
-        "url": "https://uthrofazeroth.github.io/"
+      "about": {
+        "@id": "https://uthrofazeroth.github.io/#person"
+      },
+      "breadcrumb": {
+        "@id": "https://uthrofazeroth.github.io/books/#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://uthrofazeroth.github.io/books/#itemlist"
       }
-    ]
-  }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://uthrofazeroth.github.io/books/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://uthrofazeroth.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Books",
+          "item": "https://uthrofazeroth.github.io/books/"
+        }
+      ]
+    },
+    {
+      "@type": "BookSeries",
+      "@id": "https://uthrofazeroth.github.io/books/the-burn-line-series#series",
+      "name": "The Burn Line",
+      "url": "https://uthrofazeroth.github.io/books/",
+      "author": {
+        "@id": "https://uthrofazeroth.github.io/#person"
+      },
+      "hasPart": [
+        {
+          "@id": "https://uthrofazeroth.github.io/books/beyond-the-burn-line.html#book"
+        },
+        {
+          "@id": "https://uthrofazeroth.github.io/books/the-codex-vault.html#book"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://uthrofazeroth.github.io/books/beyond-the-burn-line.html#book",
+      "name": "Beyond the Burn Line",
+      "url": "https://uthrofazeroth.github.io/books/beyond-the-burn-line.html",
+      "image": "https://uthrofazeroth.github.io/BtBL%20Ebook%20Cover.jpg",
+      "author": {
+        "@id": "https://uthrofazeroth.github.io/#person"
+      },
+      "genre": "Science fiction",
+      "description": "A serious, immersive science-fiction novel about frontier work, administrative power, and the human cost of managed reality.",
+      "sameAs": "https://www.amazon.co.uk/dp/B0GTBZLSK6"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://uthrofazeroth.github.io/books/the-codex-vault.html#book",
+      "name": "The Codex Vault",
+      "url": "https://uthrofazeroth.github.io/books/the-codex-vault.html",
+      "image": "https://uthrofazeroth.github.io/TCV%20ebook%20cover.jpg",
+      "author": {
+        "@id": "https://uthrofazeroth.github.io/#person"
+      },
+      "genre": "Science-fiction thriller",
+      "description": "A serious, atmospheric science-fiction thriller about archaeology, records, legitimacy, and the institutions that fear history when it stops behaving.",
+      "isPartOf": {
+        "@id": "https://uthrofazeroth.github.io/books/the-burn-line-series#series"
+      },
+      "position": 2,
+      "sameAs": "https://www.amazon.co.uk/dp/B0GTBMP11F"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://uthrofazeroth.github.io/books/the-stitched-best.html#book",
+      "name": "The Stitched Best",
+      "url": "https://uthrofazeroth.github.io/books/the-stitched-best.html",
+      "image": "https://uthrofazeroth.github.io/The%20Stitched%20Best.jpg",
+      "author": {
+        "@id": "https://uthrofazeroth.github.io/#person"
+      },
+      "genre": "Motorsport thriller",
+      "description": "A high-intensity motorsport thriller about AI optimisation, human obsession, and what happens when the safe load envelope collapses.",
+      "sameAs": "https://www.amazon.co.uk/dp/B0GPY3HT6G"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://uthrofazeroth.github.io/books/#itemlist",
+      "name": "Published books by Oliver T. Crowe",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://uthrofazeroth.github.io/books/beyond-the-burn-line.html#book"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://uthrofazeroth.github.io/books/the-codex-vault.html#book"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://uthrofazeroth.github.io/books/the-stitched-best.html#book"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>

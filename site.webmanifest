@@ -11,5 +11,12 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
+  ],
+  "scope": "/",
+  "lang": "en-GB",
+  "categories": [
+    "books",
+    "author",
+    "fiction"
   ]
 }

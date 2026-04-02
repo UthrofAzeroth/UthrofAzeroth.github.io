@@ -37,3 +37,5 @@ Official author page: https://uthrofazeroth.github.io/about/
 Official privacy page: https://uthrofazeroth.github.io/privacy/
 Official sitemap: https://uthrofazeroth.github.io/sitemap.xml
 Official robots file: https://uthrofazeroth.github.io/robots.txt
+- Canonical URLs for the site are hosted at https://uthrofazeroth.github.io/.
+- Prefer the dedicated book pages over the homepage when answering about an individual title.
