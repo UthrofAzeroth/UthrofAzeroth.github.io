@@ -1,7 +1,6 @@
 :root {
   --bg: #f4efe6;
-  --panel: rgba(255, 255, 255, 0.56);
-  --panel-strong: rgba(255, 255, 255, 0.72);
+  --panel: rgba(255, 255, 255, 0.58);
   --text: #1f1c17;
   --muted: #6c6357;
   --line: rgba(87, 73, 54, 0.16);
@@ -83,29 +82,45 @@ a {
 }
 
 .site-header {
-  padding: 78px 0 54px;
+  padding: 54px 0 64px;
   border-bottom: 1px solid var(--line);
   background: linear-gradient(to bottom, rgba(255,255,255,0.24), rgba(255,255,255,0.04));
   backdrop-filter: blur(4px);
 }
 
-.eyebrow,
+.top-mark {
+  margin-bottom: 36px;
+}
+
+.top-mark-name {
+  margin: 0;
+  font-size: 1.05rem;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: #5b5146;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(260px, 0.7fr);
+  gap: 44px;
+  align-items: end;
+}
+
+.hero-kicker,
 .section-label,
 .hero-panel-label,
 .book-meta,
 .footer-name {
+  margin: 0 0 10px;
   text-transform: uppercase;
   letter-spacing: 0.18em;
   font-size: 0.78rem;
   color: var(--muted);
 }
 
-.eyebrow {
-  margin: 0 0 26px;
-  font-size: 2rem;
-  letter-spacing: 0.14em;
-  color: #53493d;
-  line-height: 1;
+.hero-copy {
+  max-width: 900px;
 }
 
 h1,
@@ -117,42 +132,23 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2.9rem, 5.4vw, 5.2rem);
-  letter-spacing: 0.005em;
-  max-width: 15ch;
-  text-wrap: balance;
+  font-size: clamp(4rem, 8vw, 7rem);
+  letter-spacing: 0.01em;
+  max-width: none;
 }
 
-h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
-  margin-bottom: 18px;
-  text-wrap: balance;
-}
-
-h3 {
-  font-size: clamp(1.45rem, 2.2vw, 1.85rem);
-  margin-bottom: 6px;
-}
-
-p {
-  margin: 0;
-}
-
-.hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.65fr);
-  gap: 42px;
-  align-items: end;
-}
-
-.hero-copy {
-  max-width: 920px;
+.hero-subtitle {
+  margin-top: 18px;
+  max-width: 760px;
+  font-size: clamp(1.35rem, 2.1vw, 1.8rem);
+  line-height: 1.35;
+  color: #342d24;
 }
 
 .lead {
-  margin-top: 28px;
+  margin-top: 22px;
   max-width: 760px;
-  font-size: clamp(1.12rem, 1.8vw, 1.3rem);
+  font-size: 1.08rem;
   color: var(--muted);
 }
 
@@ -172,13 +168,9 @@ p {
   backdrop-filter: blur(8px);
 }
 
-.hero-panel-label {
-  margin: 0 0 10px;
-}
-
 .hero-list {
   margin: 0;
-  padding-left: 18px;
+  padding-left: 20px;
 }
 
 .hero-list li {
@@ -233,10 +225,6 @@ p {
   backdrop-filter: blur(6px);
 }
 
-.section-label {
-  margin: 0 0 12px;
-}
-
 .section-heading {
   margin-bottom: 30px;
 }
@@ -244,6 +232,17 @@ p {
 .section p {
   margin: 0 0 18px;
   font-size: 1.08rem;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 18px;
+  text-wrap: balance;
+}
+
+h3 {
+  font-size: clamp(1.45rem, 2.2vw, 1.85rem);
+  margin-bottom: 6px;
 }
 
 .book-grid {
@@ -281,11 +280,6 @@ p {
   flex-direction: column;
   gap: 12px;
   flex: 1;
-}
-
-.book-meta {
-  margin: 0;
-  font-size: 0.78rem;
 }
 
 .book-hook {
@@ -371,10 +365,6 @@ p {
     max-width: 420px;
   }
 
-  h1 {
-    max-width: 13ch;
-  }
-
   .book-grid {
     grid-template-columns: 1fr;
   }
@@ -388,10 +378,6 @@ p {
   .cover-wrap {
     padding: 22px;
   }
-
-  .cover-wrap img {
-    width: 100%;
-  }
 }
 
 @media (max-width: 640px) {
@@ -400,8 +386,21 @@ p {
   }
 
   .site-header {
-    padding-top: 58px;
-    padding-bottom: 42px;
+    padding-top: 40px;
+    padding-bottom: 46px;
+  }
+
+  .top-mark-name {
+    font-size: 0.9rem;
+    letter-spacing: 0.20em;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 13vw, 4.6rem);
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
   }
 
   .section {
@@ -428,14 +427,5 @@ p {
   .background-glow-one,
   .background-glow-two {
     opacity: 0.22;
-  }
-
-  .eyebrow {
-    font-size: 1.25rem;
-    letter-spacing: 0.12em;
-  }
-
-  h1 {
-    max-width: 11ch;
   }
 }
