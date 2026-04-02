@@ -101,7 +101,10 @@ a {
 }
 
 .eyebrow {
-  margin: 0 0 18px;
+  margin: 0 0 20px;
+  font-size: 1rem;
+  letter-spacing: 0.22em;
+  color: #5f5549;
 }
 
 h1,
@@ -420,5 +423,10 @@ p {
   .background-glow-one,
   .background-glow-two {
     opacity: 0.22;
+  }
+
+  .eyebrow {
+    font-size: 0.9rem;
+    letter-spacing: 0.18em;
   }
 }
