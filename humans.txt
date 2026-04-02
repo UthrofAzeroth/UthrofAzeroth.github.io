@@ -1,0 +1,8 @@
+/* TEAM */
+Author brand: Oliver T. Crowe
+Site type: Static HTML/CSS author website
+Hosting: GitHub Pages
+
+/* SITE */
+Language: en-GB
+Primary purpose: Official author website and book catalogue

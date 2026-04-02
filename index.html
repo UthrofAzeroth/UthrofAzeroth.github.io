@@ -10,6 +10,9 @@
   <meta name="theme-color" content="#f4efe6">
   <link rel="canonical" href="https://uthrofazeroth.github.io/">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
+  <meta name="format-detection" content="telephone=no">
   <link rel="shortcut icon" href="favicon.svg">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Oliver T. Crowe | Official Author Website">
@@ -32,7 +35,13 @@
         "url": "https://uthrofazeroth.github.io/",
         "name": "Oliver T. Crowe",
         "description": "Official author website for Oliver T. Crowe.",
-        "inLanguage": "en-GB"
+        "inLanguage": "en-GB",
+        "publisher": {"@id": "https://uthrofazeroth.github.io/#person"},
+        "hasPart": [
+          {"@id": "https://uthrofazeroth.github.io/books/#collection"},
+          {"@id": "https://uthrofazeroth.github.io/about/#webpage"},
+          {"@id": "https://uthrofazeroth.github.io/privacy/#webpage"}
+        ]
       },
       {
         "@type": "WebPage",
@@ -53,7 +62,8 @@
         "name": "Oliver T. Crowe",
         "url": "https://uthrofazeroth.github.io/",
         "description": "Oliver T. Crowe writes intelligent speculative fiction about pressure, systems, and the truths people uncover inside them.",
-        "jobTitle": "Author"
+        "jobTitle": "Author",
+        "knowsAbout": ["Speculative fiction", "Science fiction", "Thriller fiction", "Systems", "Institutions", "Consequence"]
       },
       {
         "@type": "CollectionPage",
@@ -123,6 +133,8 @@
           <li><a href="#books">Published fiction</a></li>
         </ul>
       </nav>
+      <link itemprop="significantLink" href="/about/">
+      <link itemprop="significantLink" href="/privacy/">
 
       <div class="hero-grid">
         <div class="hero-copy">
@@ -245,7 +257,7 @@
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <p class="footer-name">Oliver T. Crowe</p>
-      <p class="footer-note">Official author website hosted on GitHub Pages.</p>
+      <p class="footer-note">Official author website hosted on GitHub Pages. <a class="text-link" href="/privacy/">Privacy</a></p>
     </div>
   </footer>
 </body>
