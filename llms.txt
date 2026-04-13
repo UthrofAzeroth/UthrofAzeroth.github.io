@@ -9,6 +9,16 @@ Oliver T. Crowe writes intelligent speculative fiction about pressure, systems, 
 - Books index: https://uthrofazeroth.github.io/books/
 
 ## Books
+- The Needle Gate
+  - Official page: https://uthrofazeroth.github.io/books/the-needle-gate.html
+  - Type: Psychological thriller
+  - Buy: https://www.amazon.com/dp/B0GGXDFTF4
+
+- The House of Invitations
+  - Official page: https://uthrofazeroth.github.io/books/the-house-of-invitations.html
+  - Type: Psychological suspense
+  - Buy: https://www.amazon.com/dp/B0GWW9QGTK
+
 - Beyond the Burn Line
   - Official page: https://uthrofazeroth.github.io/books/beyond-the-burn-line.html
   - Type: Science fiction
