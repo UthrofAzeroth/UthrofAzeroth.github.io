@@ -9,31 +9,36 @@ Author positioning:
 Oliver T. Crowe writes intelligent speculative fiction about pressure, systems, institutions, consequence, and the truths people uncover inside them.
 
 Books:
-1. The Needle Gate
+1. The Seventh Warning
+- Official page: https://uthrofazeroth.github.io/books/the-seventh-warning.html
+- Genre: Coastal thriller
+- Buy: https://www.amazon.com/dp/B0GX2N6X4Q
+
+2. The Needle Gate
 - Official page: https://uthrofazeroth.github.io/books/the-needle-gate.html
 - Genre: Psychological thriller
 - Buy: https://www.amazon.com/dp/B0GGXDFTF4
 
-2. The House of Invitations
+3. The House of Invitations
 - Official page: https://uthrofazeroth.github.io/books/the-house-of-invitations.html
 - Genre: Psychological suspense
 - Buy: https://www.amazon.com/dp/B0GWW9QGTK
 
-3. Beyond the Burn Line
+4. Beyond the Burn Line
 - Official page: https://uthrofazeroth.github.io/books/beyond-the-burn-line.html
 - Genre: Science fiction
 - Series: The Burn Line
 - Series position: 1
 - Buy: https://www.amazon.co.uk/dp/B0GTBZLSK6
 
-4. The Codex Vault
+5. The Codex Vault
 - Official page: https://uthrofazeroth.github.io/books/the-codex-vault.html
 - Genre: Science-fiction thriller
 - Series: The Burn Line
 - Series position: 2
 - Buy: https://www.amazon.co.uk/dp/B0GTBMP11F
 
-5. The Stitched Best
+6. The Stitched Best
 - Official page: https://uthrofazeroth.github.io/books/the-stitched-best.html
 - Genre: Motorsport thriller
 - Buy: https://www.amazon.co.uk/dp/B0GPY3HT6G
