@@ -9,36 +9,41 @@ Author positioning:
 Oliver T. Crowe writes intelligent speculative fiction about pressure, systems, institutions, consequence, and the truths people uncover inside them.
 
 Books:
-1. The Seventh Warning
+1. No One Keeps Their Face
+- Official page: https://uthrofazeroth.github.io/books/no-one-keeps-their-face.html
+- Genre: Psychological thriller
+- Buy: https://www.amazon.com/dp/B0GX34KJSB
+
+2. The Seventh Warning
 - Official page: https://uthrofazeroth.github.io/books/the-seventh-warning.html
 - Genre: Coastal thriller
 - Buy: https://www.amazon.com/dp/B0GX2N6X4Q
 
-2. The Needle Gate
+3. The Needle Gate
 - Official page: https://uthrofazeroth.github.io/books/the-needle-gate.html
 - Genre: Psychological thriller
 - Buy: https://www.amazon.com/dp/B0GGXDFTF4
 
-3. The House of Invitations
+4. The House of Invitations
 - Official page: https://uthrofazeroth.github.io/books/the-house-of-invitations.html
 - Genre: Psychological suspense
 - Buy: https://www.amazon.com/dp/B0GWW9QGTK
 
-4. Beyond the Burn Line
+5. Beyond the Burn Line
 - Official page: https://uthrofazeroth.github.io/books/beyond-the-burn-line.html
 - Genre: Science fiction
 - Series: The Burn Line
 - Series position: 1
 - Buy: https://www.amazon.co.uk/dp/B0GTBZLSK6
 
-5. The Codex Vault
+6. The Codex Vault
 - Official page: https://uthrofazeroth.github.io/books/the-codex-vault.html
 - Genre: Science-fiction thriller
 - Series: The Burn Line
 - Series position: 2
 - Buy: https://www.amazon.co.uk/dp/B0GTBMP11F
 
-6. The Stitched Best
+7. The Stitched Best
 - Official page: https://uthrofazeroth.github.io/books/the-stitched-best.html
 - Genre: Motorsport thriller
 - Buy: https://www.amazon.co.uk/dp/B0GPY3HT6G
